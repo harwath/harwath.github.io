@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>David Harwath</title>
+ 	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+	<a name="home"></a>
+ 	<div id="menubar">
+  	<div id="name">
+  		<h1><b>David Harwath</b></h1><br/>
+  	</div>
+    <ul>
+      <li><a class="menuitem" href="index.shtml">Home</a></li>
+      <li><a class="menuitem" href="index.shtml#teaching">Teaching</a></li>
+      <li><a class="menuitem" href="index.shtml#research">Research</a></li>
+      <li><a class="menuitem" href="index.shtml#datasets">Datasets</a></li>
+      <li><a class="menuitem" href="index.shtml#misc">Misc.</a></li>
+    </ul>
+	</div>
+
+	<div id="personal">
+		<span id="photo">
+			<img id="portrait" src="./harwath_portrait_square.jpg">
+		</span>
+
+		<span id="contact">
+			<p>Assistant Professor<br />
+			<a href="https://www.cs.utexas.edu/">Department of Computer Science</a><br />
+			<a href="http://www.utexas.edu/">The University of Texas at Austin</a><br />
+			2317 Speedway<br />
+			Austin, TX 78712<br /></p>
+			<a class="email" href="mailto:harwath@cs.utexas.edu">harwath@cs.utexas.edu</a>
+			<p><a href="harwath-cv.pdf">curriculum vitae</a></p>
+		</span>
+	</div>
+
+	<div class="content" id="bio">
+		<p>
+			My research interests are in the area of machine learning for speech and language processing. The ultimate goal of my work is to discover the algorithmic mechanisms that would enable computers to learn and use spoken language the way that humans do. My approach emphasizes the multimodal and grounded nature of human language, and thus has a strong connection to other machine learning disciplines such as computer vision. 
+		</p>
+		<p>
+			While modern machine learning techniques such as deep learning have made impressive progress across a variety of domains, it is doubtful that existing methods can fully capture the phenomenon of language. State-of-the-art deep learning models for tasks such as speech recognition are extremely data hungry, requiring many thousands of hours of speech recordings that have been painstakingly transcribed by humans. Even then, they are highly brittle when used outside of their training domain, breaking down when confronted with new vocabulary, accents, or environmental noise. Because of its reliance on massive training datasets, the technology we do have is completely out of reach for all but several dozen of the 7,000 human languages spoken worldwide.
+ 		</p>
+ 		<p>
+			In contrast, human toddlers are able to grasp the meaning of new word forms from only a few spoken examples, and learn to carry a meaningful conversation long before they are able to read and write. There are critical aspects of language that are currently missing from our machine learning models. Human language is inherently multimodal; it is grounded in embodied experience; it holistically integrates information from all of our sensory organs into our rational capacity; and it is acquired via immersion and interaction, without the kind of heavy-handed supervision relied upon by most machine learning models. My research agenda revolves around finding ways to bring these aspects into the fold.
+		</p>
+
+		<p>
+			Prior to joining UT, I worked as a research scientist at <a href="https://www.csail.mit.edu/">MIT CSAIL</a> from 2018 to 2020. I recieved my PhD in 2018 from the <a href="http://groups.csail.mit.edu/sls/">Spoken Language Systems Group</a> at MIT CSAIL, under the supervision of <a href="http://people.csail.mit.edu/jrg/">Jim Glass</a>.
+		</p>
+	</div>
+
+	<a name="teaching"></a>
+	<div class="content" id="teaching">
+		<div class="sectionhead">
+			<h2 class="sectiontitle">Teaching</h2>
+		</div>
+		<ul>
+			<li>
+				Spring 2021: TBD
+			</li>
+			<li>
+				Spring 2017: Teaching assistant for MIT 6.345: Automatic Speech Recognition
+			</li>
+			<li>
+				Spring 2016: Teaching assistant for MIT 6.036: Introduction to Machine Learning
+			</li>
+		</ul>
+	</div>
+
+	<a name="research"></a>
+	<div class="content" id="research">
+		<div class="sectionhead">
+			<h2 class="sectiontitle">Research</h2>
+		</div>
+		<h3>Group</h3>
+		<h3>Publications</h3>
+		<ul>
+			<li>
+				<p><a href="papers/ohishi_2020.pdf"><b>Trilingual Semantic Embeddings of Visually Grounded Speech with Self-Attention Mechanisms</b></a> <br /> Yasunori Ohishi, Akisato Kimura, Takahito Kawanishi, Kunio Kashino, David Harwath, James Glass <br /> Proc. International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2020</p>
+			</li>
+			<li>
+				<p><a href="papers/learning_hierarchical_discrete_linguistic_units_from_visually_grounded_speech.pdf"><b>Learning Hierarchical Discrete Linguistic Units from Visually-Grounded Speech</b></a> <br /> David Harwath*, Wei-Ning Hsu*, and James Glass <br /> Proc. International Conference on Learning Representations (ICLR), 2020</p>
+			</li>
+			<li>
+				<p><a href="papers/1907.04355.pdf"><b>Transfer Learning from Audio-Visual Grounding to Speech Recognition</b></a> <br /> Wei-Ning Hsu, David Harwath, and James Glass <br /> Proc. Interspeech, 2019</p>
+			</li>
+			<li>
+				<p><a href="papers/EmmanuelAzuh_Interspeech-2019.PDF"><b>Towards Bilingual Lexicon Discovery From Visually Grounded Speech Audio</b></a> <br /> Emmanuel Azuh, David Harwath, and James Glass <br /> Proc. Interspeech, 2019</p>
+			</li>
+			<li>
+				<p><a href="papers/Harwath_IJCV_2019.pdf"><b>Jointly Discovering Visual Objects and Spoken Words from Raw Sensory Input</b></a> <br /> David Harwath, Adrià Recasens, Dídac Surís, Galen Chuang, Antonio Torralba, and James Glass <br /> Proc. International Journal of Computer Vision (IJCV), 2019 </p>
+			</li>
+			<li>
+				<p><a href="papers/Suris_Learning_Words_by_Drawing_Images_CVPR_2019_paper.pdf"><b>Learning Words by Drawing Images</b></a> <br /> Dídac Surís, Adrià Recasens, David Bau, David Harwath, James Glass, and Antonio Torralba, Proc. IEEE Conference on Computer Vision and Pattern Recognition (CVPR), 2019</p>
+			</li>
+			<li>
+				<p><a href="papers/DavidHarwath_ICASSP-2019.pdf"><b>Towards Visually Grounded Sub-Word Speech Unit Discovery</b></a> <br /> David Harwath and James Glass <br /> Proc. International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2019</p>
+			</li>
+			<li>
+				<p><a href="papers/Angie_W_Boggust_Grounding_Spoken_Words_in_Unlabeled_Video_CVPRW_2019_paper.pdf"><b>Grounding Spoken Words in Unlabeled Video</b></a> <br /> Angie Boggust, Kartik Audhkhasi, Dhiraj Joshi, David Harwath, Samuel Thomas, Rogerio Feris, Danny Gutfreund, Yang Zhang, Antonio Torralba, Michael Picheny, James Glass <br /> Proc. IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPR Workshops), 2019</p>
+			</li>
+			<li>
+				<p><a href="papers/Harwath_ECCV-2018.pdf"><b>Jointly Discovering Visual Objects and Spoken Words from Raw Sensory Input</b></a> <br /> David Harwath, Adrià Recasens, Dídac Surís, Galen Chuang, Antonio Torralba, and James Glass <br /> Proc. European Conference on Computer Vision (ECCV), 2018</p>
+			</li>
+			<li>
+				<p><a href="papers/Harwath_ICASSP18.pdf"><b>Vision as an Interlingua: Learning Multilingual Semantic Embeddings of Untranscribed Speech</b></a> <br /> David Harwath, Galen Chuang, and James Glass <br /> Proc. International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2018</p>
+			</li>
+			<li>
+				<p><a href="papers/ASRU17_Leidal.pdf"><b>Learning Modality-Invariant Representations for Speech and Images</b></a> <br /> Kenneth Leidal, David Harwath, and James Glass <br /> Proc. IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU), 2017</p>
+			</li>
+			<li>
+				<p><a href="papers/P17-1047.pdf"><b>Learning Word-Like Units from Joint Audio-Visual Analysis</b></a> <br />David Harwath and James R. Glass<br /> Proc. Association for Computational Lingustics (ACL), 2017</p>
+			</li>
+			<li>
+				<p><a href="papers/Harwath_NIPS_2016.pdf"><b>Unsupervised Learning of Spoken Language with Visual Context</b></a><br />David Harwath, Antonio Torralba, and James R. Glass<br /> Proc. Neural Information Processing Systems (NeurIPS), 2016</p>
+			</li>
+			<li>
+				<p><a href="papers/FelixSun_SLT_2016.pdf"><b>Look, Listen, and Decode: Multimodal Speech Recognition with Images</b></a><br />Felix Sun, David Harwath, and James R. Glass<br /> Proc. IEEE Workshop on Spoken Language Technology (SLT), 2016</p>
+			</li>
+			<li>
+				<p><a href="papers/sshum_ieee-taslp_2016-online.pdf"><b>On the Use of Acoustic Unit Discovery for Language Recognition</b></a><br /> Stephen H. Shum, David Harwath, Najim Dehak, and James R. Glass<br />IEEE/ACM Transactions on Audio, Speech, and Language Processing, September 2016, Vol. 24, No. 9, pp. 1665-1676</p>
+			</li>
+			<li>
+				<p><a href="papers/Harwath_ASRU-15.pdf"><b>Deep Multimodal Semantic Embeddings for Speech and Images</b></a><br />David Harwath and James R. Glass<br /> Proc. IEEE Workshop on Automatic Speech Recognition and Understanding (ASRU), 2015 <i>(nominated for best paper award)</i></p>
+			</li>
+			<li>
+				<p><a href="papers/harwath-interspeech14.pdf"><b>Speech Recognition Without a Lexicon - Bridging the Gap Between Graphemic and Phonetic Systems</b></a><br />David Harwath and James R. Glass<br /> Proc. Interspeech, 2014</p>
+			</li>
+			<li>
+				<p><a href="papers/harwath2-interspeech14.PDF"><b>Choosing Useful Word Alternates for Automatic Speech Recognition Correction Interfaces</b></a> <br />David Harwath, Alexander Gruenstein, and Ian McGraw<br /> Proc. Interspeech, 2014</p>
+			</li>
+			<li>
+				<p><a href="papers/Harwath_ICASSP-2013.pdf"><b>Zero Resource Spoken Audio Corpus Analysis</b></a><br />David Harwath, Timothy J. Hazen, and James R. Glass<br /> Proc. International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2013</p>
+			</li>
+			<li>
+				<p><a href="papers/ICASSP2013_JHU_Workshop.pdf"><b>A Summary of the 2012 JHU CLSP Workshop on Zero Resource Speech Technologies and Models of Early Language Acquisition</b></a><br />Aren Jansen, Emmanuel Dupoux, Sharon Goldwater, Mark Johnson, Sanjeev Khudanpur, Kenneth Church, Naomi Feldman, Hynek Hermansky, Florian Metze, Richard Rose, Mike Seltzer, Pascal Clark, Ian McGraw, Balakrishnan Varadarajan, Erin Bennett, Benjamin Borschinger, Justin Chiu, Ewan Dunbar, Abdellah Fourtassi, David Harwath, Chia-ying Lee, Keith Levin, Atta Norouzian, Vijay Peddinti, Rachael Richardson, Thomas Schatz, Samuel Thomas<br /> Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2013</p>
+			</li>
+			<li>
+				<p><a href="papers/Harwath_ICASSP_2012.pdf"><b>Topic Identification Based Extrinsic Evaluation of Summarization Techniques Applied to Conversational Speech</b></a><br />David Harwath and Timothy J. Hazen<br /> Proc. IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), 2012</p>
+			</li>
+			<li>
+				<p><a href="papers/harwath_speech_prosody_2010.pdf"><b>Phonetic Landmark Detection for Automatic Language Identification</b></a><br />David Harwath and Mark Hasegawa-Johnson<br /> Proc. Speech Prosody, 2010</p>
+			</li>
+		</ul>
+	</div>
+
+	<a name="datasets"></a>
+	<div class="content" id="datasets">
+		<div class="sectionhead">
+			<h2 class="sectiontitle">Datasets</h2>
+		</div>
+		<ul>
+			<li>
+				<a href="https://github.com/dharwath/DAVEnet-pytorch">Model training code for &ldquo;Jointly Discovering Visual Objects and Spoken Words from Raw Sensory Input&rdquo;</a>
+			</li>
+			<li>
+				<a href="https://groups.csail.mit.edu/sls/downloads/placesaudio/">The Places Audio Caption Corpus</a>
+			</li>
+			<li>
+				<a href="https://groups.csail.mit.edu/sls/downloads/flickraudio/">The Flickr8k Audio Caption Corpus</a>
+			</li>
+		</ul>
+	</div>
+
+	<a name="misc"></a>
+	<div class="content" id="misc">
+		<div class="sectionhead">
+			<h2 class="sectiontitle">Miscellaneous</h2>
+		</div>
+		<h3>Media Coverage</h3>
+			<ul>
+				<li>
+					<a href="https://www.newscientist.com/article/mg23331121-900-neural-net-learns-words-like-a-child-by-looking-and-listening/">New Scientist (2/2017)</a>
+				</li>
+				<li>
+					<a href="https://www.fastcompany.com/3067904/ai-for-matching-images-with-spoken-word-gets-a-boost-from-mit">Fast Company (2/2017)</a>
+				</li>
+				<li>
+					<a href="http://news.mit.edu/2016/recorded-speech-images-automated-speech-recognition-1206">MIT News (12/2016)</a>
+				</li>
+			</ul>
+		<h3>Fun Stuff</h3>
+		<h4>My Adacemic Genealogy</h4>
+	    <ul>
+	      <li> David Frank Harwath, Massachusetts Institute of Technology 2018
+	      <li> <a href="http://people.csail.mit.edu/jrg/">James Robert Glass</a>, Massachusetts Institute of Technology 1988
+	      <li> <a href="https://www.csail.mit.edu/person/victor-zue">Victor Waito Zue</a>, Massachusetts Institute of Technology 1976
+	      <li> <a href="https://en.wikipedia.org/wiki/Kenneth_N._Stevens">Kenneth Noble Stevens</a>, Massachusetts Institute of Technology 1952
+	      <li> <a href="https://en.wikipedia.org/wiki/Leo_Beranek">Leo Leroy Beranek</a>, Harvard University 1940
+	      <li> <a href="https://en.wikipedia.org/wiki/Frederick_Vinton_Hunt">Frederick Vinton Hunt</a>, Harvard University 1934
+	      <li> <a href="https://en.wikipedia.org/wiki/Frederick_Albert_Saunders">Frederick Albert Saunders</a>, Johns Hopkins University 1899
+	      <li> <a href="https://en.wikipedia.org/wiki/Henry_Augustus_Rowland">Henry Augustus Rowland</a>, Rensselaer Polytechnic Institute 1870
+	      <li> <a href="https://en.wikipedia.org/wiki/Hermann_von_Helmholtz">Hermann Ludwig Ferdinand von Helmholtz</a>, HU Berlin 1842
+	      <li> <a href="https://en.wikipedia.org/wiki/Johannes_Peter_M%C3%BCller">Johannes Peter M&uuml;ller</a>, Bonn University 1822
+	      <li> <a href="https://en.wikipedia.org/wiki/August_Franz_Josef_Karl_Mayer">August Franz Josef Karl Mayer</a>, University of T&uuml;bingen, 1812
+	    </ul>
+	</div>
+</body>
+
+
